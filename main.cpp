@@ -1,7 +1,7 @@
-#include <iostream>
+#include <bits/stdc++.h> // or use standard headers
 using namespace std;
 
 int main() {
-    cout << "Welcome to C++ Programming with Codespaces!" << endl;
+    // Your code here
     return 0;
 }

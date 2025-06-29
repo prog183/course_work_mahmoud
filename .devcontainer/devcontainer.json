@@ -1,0 +1,19 @@
+{
+  "name": "C++ Codespace Starter",
+  "image": "mcr.microsoft.com/devcontainers/cpp",
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  // Install extra packages and run setup commands
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y valgrind && g++ --version",
+  "features": {},
+  "extensions": [
+    "ms-vscode.cpptools",
+    "ms-vscode.cmake-tools",
+    "ms-vscode.cpptools-extension-pack"
+  ],
+  // Set environment variables
+  "containerEnv": {
+    "MY_ENV_VAR": "value"
+  }
+}
